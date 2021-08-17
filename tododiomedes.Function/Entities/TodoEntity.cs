@@ -5,7 +5,7 @@ using System.Text;
 
 namespace tododiomedes.Function.Entities
 {
-    class TodoEntity:TableEntity
+    public class TodoEntity:TableEntity
     {
         public DateTime CreatedTime { get; set; }
 
